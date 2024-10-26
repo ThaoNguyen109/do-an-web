@@ -16,10 +16,10 @@ const JWT_SECRET = 'your_jwt_secret_key'
 
 // Cấu hình kết nối tới SQL Server
 const dbConfig = {
-  user: 'sa',
+  user: 'tam',
   password: '123456',
   server: 'localhost', // Địa chỉ SQL Server
-  database: 'do-an-web',
+  database: 'doanweb',
   port: 3306,
   options: {
     trustServerCertificate: true // Chỉ cần khi server là local hoặc không có chứng chỉ SSL

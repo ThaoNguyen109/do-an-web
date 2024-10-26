@@ -77,7 +77,7 @@ function AuthPage() {
             borderRadius: '16px',
             maxWidth: 400,
             width: '100%',
-            bgcolor: 'white'
+            bgcolor: 'pink'
           }}
         >
           {isLogin ? (
@@ -257,3 +257,6 @@ function RegisterForm({ handleToggle }) {
 }
 
 export default AuthPage
+
+
+// test merge code dder ys
